@@ -200,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/essential/mata/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/essential/mata/proprietary/lib64/libtsext_inf.so:system/lib64/libtsext_inf.so \
+    vendor/essential/mata/proprietary/lib64/libuiblur.so:system/lib64/libuiblur.so \
     vendor/essential/mata/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/essential/mata/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/essential/mata/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
