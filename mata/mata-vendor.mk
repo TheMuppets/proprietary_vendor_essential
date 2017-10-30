@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/essential/mata/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/essential/mata/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/essential/mata/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/essential/mata/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/essential/mata/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/essential/mata/proprietary/bin/lowi-server:system/bin/lowi-server \
