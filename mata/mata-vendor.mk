@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/essential/mata/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/essential/mata/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/essential/mata/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/essential/mata/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/essential/mata/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/essential/mata/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
