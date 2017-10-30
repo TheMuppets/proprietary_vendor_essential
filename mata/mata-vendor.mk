@@ -171,11 +171,9 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/essential/mata/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/essential/mata/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
-    vendor/essential/mata/proprietary/lib/hw/fingerprint.msm8998.so:system/lib/hw/fingerprint.msm8998.so \
     vendor/essential/mata/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/essential/mata/proprietary/lib/hw/sensors.msm8998.so:system/lib/hw/sensors.msm8998.so \
     vendor/essential/mata/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/essential/mata/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/essential/mata/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/essential/mata/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/essential/mata/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
@@ -193,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/essential/mata/proprietary/lib64/hw/sensors.msm8998.so:system/lib64/hw/sensors.msm8998.so \
     vendor/essential/mata/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/essential/mata/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/essential/mata/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
     vendor/essential/mata/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/essential/mata/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
