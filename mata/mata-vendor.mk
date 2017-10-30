@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/essential/mata/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/essential/mata/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/essential/mata/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/essential/mata/proprietary/lib/libtsext_inf.so:system/lib/libtsext_inf.so \
     vendor/essential/mata/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/essential/mata/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
@@ -190,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/essential/mata/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
     vendor/essential/mata/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
+    vendor/essential/mata/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/essential/mata/proprietary/lib64/libtsext_inf.so:system/lib64/libtsext_inf.so \
     vendor/essential/mata/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/essential/mata/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
