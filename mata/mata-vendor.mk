@@ -222,6 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/essential/mata/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/essential/mata/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/essential/mata/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/essential/mata/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/essential/mata/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/essential/mata/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
