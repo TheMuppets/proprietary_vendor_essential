@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/essential/mata/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/essential/mata/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/essential/mata/proprietary/bin/iop:system/bin/iop \
     vendor/essential/mata/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/essential/mata/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/essential/mata/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -205,10 +206,18 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/essential/mata/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/essential/mata/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
+    vendor/essential/mata/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/essential/mata/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/essential/mata/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/essential/mata/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/essential/mata/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/essential/mata/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/essential/mata/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+    vendor/essential/mata/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/essential/mata/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/essential/mata/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/essential/mata/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+    vendor/essential/mata/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
     vendor/essential/mata/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/essential/mata/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/essential/mata/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -495,6 +504,10 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/essential/mata/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/essential/mata/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
+    vendor/essential/mata/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
+    vendor/essential/mata/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
+    vendor/essential/mata/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/essential/mata/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/essential/mata/proprietary/vendor/lib/libqtigef.so:system/vendor/lib/libqtigef.so \
     vendor/essential/mata/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
     vendor/essential/mata/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
@@ -676,6 +689,10 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/essential/mata/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/essential/mata/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/essential/mata/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/essential/mata/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/essential/mata/proprietary/vendor/lib64/libqvop-service.so:system/vendor/lib64/libqvop-service.so \
