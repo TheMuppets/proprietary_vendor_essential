@@ -187,6 +187,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/essential/mata/proprietary/lib/libtsext_inf.so:system/lib/libtsext_inf.so \
     vendor/essential/mata/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/essential/mata/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/essential/mata/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
     vendor/essential/mata/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/essential/mata/proprietary/lib64/hw/sensors.msm8998.so:system/lib64/hw/sensors.msm8998.so \
@@ -203,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib64/libtsext_inf.so:system/lib64/libtsext_inf.so \
     vendor/essential/mata/proprietary/lib64/libuiblur.so:system/lib64/libuiblur.so \
     vendor/essential/mata/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
+    vendor/essential/mata/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
     vendor/essential/mata/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/essential/mata/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/essential/mata/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
