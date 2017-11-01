@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/bin/radish:system/bin/radish \
     vendor/essential/mata/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/essential/mata/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/essential/mata/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/essential/mata/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/essential/mata/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/essential/mata/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
