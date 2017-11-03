@@ -172,15 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/essential/mata/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/essential/mata/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
-    vendor/essential/mata/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/essential/mata/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/essential/mata/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/essential/mata/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
-    vendor/essential/mata/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/essential/mata/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/essential/mata/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/essential/mata/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/essential/mata/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/essential/mata/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/essential/mata/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/essential/mata/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
@@ -189,16 +182,9 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/essential/mata/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/essential/mata/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
-    vendor/essential/mata/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/essential/mata/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/essential/mata/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
-    vendor/essential/mata/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
-    vendor/essential/mata/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/essential/mata/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/essential/mata/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/essential/mata/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/essential/mata/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
-    vendor/essential/mata/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/essential/mata/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/essential/mata/proprietary/lib64/libtsext_inf.so:system/lib64/libtsext_inf.so \
     vendor/essential/mata/proprietary/lib64/libuiblur.so:system/lib64/libuiblur.so \
@@ -235,7 +221,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
     vendor/essential/mata/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/essential/mata/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/essential/mata/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/essential/mata/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/essential/mata/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/essential/mata/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -352,23 +337,18 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/essential/mata/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/essential/mata/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/essential/mata/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/essential/mata/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/essential/mata/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/essential/mata/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/essential/mata/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/essential/mata/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/essential/mata/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
-    vendor/essential/mata/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/essential/mata/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/essential/mata/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/essential/mata/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
     vendor/essential/mata/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/essential/mata/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/essential/mata/proprietary/vendor/lib/libfastrpc_utf_stub.so:system/vendor/lib/libfastrpc_utf_stub.so \
     vendor/essential/mata/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/essential/mata/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/essential/mata/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/essential/mata/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/essential/mata/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
     vendor/essential/mata/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
@@ -377,17 +357,12 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/essential/mata/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/essential/mata/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
-    vendor/essential/mata/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/essential/mata/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/essential/mata/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/essential/mata/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/essential/mata/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/essential/mata/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/essential/mata/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/essential/mata/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/essential/mata/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/essential/mata/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/essential/mata/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/essential/mata/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/essential/mata/proprietary/vendor/lib/libmiracast.so:system/vendor/lib/libmiracast.so \
     vendor/essential/mata/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
@@ -535,7 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/essential/mata/proprietary/vendor/lib/libspl.so:system/vendor/lib/libspl.so \
     vendor/essential/mata/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/essential/mata/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/essential/mata/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/essential/mata/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/essential/mata/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
