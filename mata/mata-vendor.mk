@@ -141,6 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/essential/mata/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/essential/mata/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/essential/mata/proprietary/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml:system/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml \
+    vendor/essential/mata/proprietary/etc/permissions/com.essential.score.lib.xml:system/etc/permissions/com.essential.score.lib.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -159,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/essential/mata/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/essential/mata/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/essential/mata/proprietary/framework/com.essential.score.lib.jar:system/framework/com.essential.score.lib.jar \
     vendor/essential/mata/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/essential/mata/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/essential/mata/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
@@ -235,6 +238,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/essential/mata/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/essential/mata/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
+    vendor/essential/mata/proprietary/vendor/lib/libactuator_ak7371_mono.so:system/vendor/lib/libactuator_ak7371_mono.so \
     vendor/essential/mata/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/essential/mata/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/essential/mata/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
