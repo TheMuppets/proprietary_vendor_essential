@@ -557,6 +557,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/essential/mata/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:system/vendor/lib64/hw/gatekeeper.msm8998.so \
     vendor/essential/mata/proprietary/vendor/lib64/hw/keystore.msm8998.so:system/vendor/lib64/hw/keystore.msm8998.so \
+    vendor/essential/mata/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8998.so:system/vendor/lib64/hw/sound_trigger.primary.msm8998.so \
     vendor/essential/mata/proprietary/vendor/lib64/hw/vulkan.msm8998.so:system/vendor/lib64/hw/vulkan.msm8998.so \
     vendor/essential/mata/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/essential/mata/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
