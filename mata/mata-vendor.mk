@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/essential/mata/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/essential/mata/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/essential/mata/proprietary/bin/fastboot:system/bin/fastboot \
     vendor/essential/mata/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/essential/mata/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/essential/mata/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -192,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
     vendor/essential/mata/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/essential/mata/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/essential/mata/proprietary/lib64/libsidecar.so:system/lib64/libsidecar.so \
     vendor/essential/mata/proprietary/lib64/libtsext_inf.so:system/lib64/libtsext_inf.so \
     vendor/essential/mata/proprietary/lib64/libuiblur.so:system/lib64/libuiblur.so \
     vendor/essential/mata/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
@@ -741,6 +743,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
+    Score \
     TimeService \
     datastatusnotification \
     embms \
