@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---
+    Copyright (c) 2017 Essential Products
+    All Rights Reserved.
+ -->
+<permissions>
+    <library name="vendor.essential.hardware.sidecar-V1.0"
+          file="/vendor/framework/vendor.essential.hardware.sidecar-V1.0-java.jar"/>
+    <permission name="essential.permission.ACCESS_ESSENTIAL_CAMERA">
+        <group gid="camera" />
+    </permission>
+</permissions>
