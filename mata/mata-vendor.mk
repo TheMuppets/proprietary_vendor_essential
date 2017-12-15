@@ -229,6 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
     vendor/essential/mata/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/essential/mata/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/essential/mata/proprietary/vendor/lib/libCxAudioHidLib.so:system/vendor/lib/libCxAudioHidLib.so \
     vendor/essential/mata/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/essential/mata/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/essential/mata/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -348,6 +349,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/essential/mata/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/essential/mata/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/essential/mata/proprietary/vendor/lib/libcxaudiohidlib_embcb_jni.so:system/vendor/lib/libcxaudiohidlib_embcb_jni.so \
     vendor/essential/mata/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/essential/mata/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/essential/mata/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
@@ -521,6 +523,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/essential/mata/proprietary/vendor/lib/libspl.so:system/vendor/lib/libspl.so \
     vendor/essential/mata/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/essential/mata/proprietary/vendor/lib/libusb1.0.so:system/vendor/lib/libusb1.0.so \
     vendor/essential/mata/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/essential/mata/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/essential/mata/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
@@ -588,6 +591,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/essential/mata/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/essential/mata/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libCxAudioHidLib.so:system/vendor/lib64/libCxAudioHidLib.so \
     vendor/essential/mata/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/essential/mata/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/essential/mata/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
@@ -621,6 +625,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/essential/mata/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/essential/mata/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libcxaudiohidlib_embcb_jni.so:system/vendor/lib64/libcxaudiohidlib_embcb_jni.so \
     vendor/essential/mata/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/essential/mata/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/essential/mata/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -720,6 +725,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/essential/mata/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/essential/mata/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libusb1.0.so:system/vendor/lib64/libusb1.0.so \
     vendor/essential/mata/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/essential/mata/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/essential/mata/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
