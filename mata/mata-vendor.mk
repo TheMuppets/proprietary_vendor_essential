@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/bin/fastboot:system/bin/fastboot \
-    vendor/essential/mata/proprietary/vendor/etc/firmware/TFA9891.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/TFA9891.cnt \
+    vendor/essential/mata/proprietary/vendor/firmware/TFA9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891.cnt \
     vendor/essential/mata/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/essential/mata/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
