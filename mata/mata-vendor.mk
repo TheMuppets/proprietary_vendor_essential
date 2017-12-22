@@ -239,6 +239,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/essential/mata/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/essential/mata/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/essential/mata/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/essential/mata/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/essential/mata/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/essential/mata/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -349,6 +350,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/essential/mata/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/essential/mata/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/essential/mata/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/essential/mata/proprietary/vendor/lib/libcxaudiohidlib_embcb_jni.so:system/vendor/lib/libcxaudiohidlib_embcb_jni.so \
     vendor/essential/mata/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/essential/mata/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
@@ -486,11 +488,13 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/essential/mata/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/essential/mata/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/essential/mata/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/essential/mata/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/essential/mata/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/essential/mata/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/essential/mata/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/essential/mata/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/essential/mata/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/essential/mata/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -512,6 +516,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
     vendor/essential/mata/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/essential/mata/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
+    vendor/essential/mata/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/essential/mata/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/essential/mata/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/essential/mata/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
@@ -522,6 +527,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/essential/mata/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/essential/mata/proprietary/vendor/lib/libspl.so:system/vendor/lib/libspl.so \
+    vendor/essential/mata/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/essential/mata/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/essential/mata/proprietary/vendor/lib/libusb1.0.so:system/vendor/lib/libusb1.0.so \
     vendor/essential/mata/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
