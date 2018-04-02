@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libusb1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libusb1.0.so \
     vendor/essential/mata/proprietary/bin/fastboot:system/bin/fastboot \
     vendor/essential/mata/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/essential/mata/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/embms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/embms.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
@@ -28,13 +27,10 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/essential/mata/proprietary/etc/permissions/vendor-essential-hardware-sidecar.xml:system/etc/permissions/vendor-essential-hardware-sidecar.xml \
     vendor/essential/mata/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/essential/mata/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/essential/mata/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/essential/mata/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/essential/mata/proprietary/vendor/framework/embmslibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/embmslibrary.jar \
     vendor/essential/mata/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/essential/mata/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/essential/mata/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/essential/mata/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/essential/mata/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/essential/mata/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
@@ -58,23 +54,11 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_truescanner_v2.so \
     vendor/essential/mata/proprietary/vendor/lib/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_ubifocus.so \
     vendor/essential/mata/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/essential/mata/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
-    vendor/essential/mata/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/essential/mata/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
     vendor/essential/mata/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/essential/mata/proprietary/vendor/lib/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruescanner.so \
     vendor/essential/mata/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
-    vendor/essential/mata/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
-    vendor/essential/mata/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
-    vendor/essential/mata/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
-    vendor/essential/mata/proprietary/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so:system/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so \
-    vendor/essential/mata/proprietary/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so:system/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so \
-    vendor/essential/mata/proprietary/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:system/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
-    vendor/essential/mata/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/essential/mata/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/essential/mata/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/essential/mata/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/essential/mata/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/essential/mata/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/essential/mata/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/essential/mata/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -103,18 +87,8 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_truescanner_v2.so \
     vendor/essential/mata/proprietary/vendor/lib64/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_ubifocus.so \
     vendor/essential/mata/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/essential/mata/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/essential/mata/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
-    vendor/essential/mata/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
-    vendor/essential/mata/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
-    vendor/essential/mata/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
-    vendor/essential/mata/proprietary/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so:system/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so \
-    vendor/essential/mata/proprietary/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so:system/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so \
-    vendor/essential/mata/proprietary/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:system/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
-    vendor/essential/mata/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/essential/mata/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/essential/mata/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libarcsoft_dualcam_refocus.so:system/priv-app/Klik/lib/arm64/libarcsoft_dualcam_refocus.so \
     vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libclearsight.so:system/priv-app/Klik/lib/arm64/libclearsight.so \
@@ -890,7 +864,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     SVIService \
     TimeService \
-    colorservice \
     datastatusnotification \
     ims \
     radioconfig \
