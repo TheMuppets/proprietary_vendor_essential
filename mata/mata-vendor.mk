@@ -27,10 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/vendor-essential-hardware-sidecar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-essential-hardware-sidecar.xml \
     vendor/essential/mata/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/essential/mata/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/essential/mata/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/essential/mata/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/essential/mata/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/essential/mata/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/essential/mata/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/essential/mata/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
@@ -58,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
     vendor/essential/mata/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/essential/mata/proprietary/vendor/lib/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruescanner.so \
-    vendor/essential/mata/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/essential/mata/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/essential/mata/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/essential/mata/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -89,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_ubifocus.so \
     vendor/essential/mata/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/essential/mata/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
-    vendor/essential/mata/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/essential/mata/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libarcsoft_dualcam_refocus.so:system/priv-app/Klik/lib/arm64/libarcsoft_dualcam_refocus.so \
     vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libclearsight.so:system/priv-app/Klik/lib/arm64/libclearsight.so \
