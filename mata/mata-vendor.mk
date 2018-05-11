@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/essential/mata/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
-    vendor/essential/mata/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/vendor-essential-hardware-sidecar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-essential-hardware-sidecar.xml \
@@ -199,6 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/etc/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile0.conf \
     vendor/essential/mata/proprietary/vendor/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
+    vendor/essential/mata/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/radioconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/radioconfig.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/radioconfiginterface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/radioconfiginterface.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
