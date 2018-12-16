@@ -1,5 +1,5 @@
 #!/vendor/bin/sh
-export PATH=$PATH:/system/bin/sh:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
+export PATH=$PATH:/vendor/bin
 
 if [ "$1" == "grip" ]; then
     if [ "$2" == "off" ]; then
