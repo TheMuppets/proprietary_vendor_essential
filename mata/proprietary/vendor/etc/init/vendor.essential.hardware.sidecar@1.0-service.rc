@@ -1,7 +1,7 @@
 # Copyright (c) 2017 Essential Product
 # All Rights Reserved.
 #
-service sidecar-hal-1-0 /vendor/bin/hw/vendor.essential.hardware.sidecar@1.0-service
+service vendor.sidecar-hal-1-0 /vendor/bin/hw/vendor.essential.hardware.sidecar@1.0-service
     class hal
     user system
     group system
