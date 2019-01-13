@@ -75,19 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_ubifocus.so \
     vendor/essential/mata/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/essential/mata/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libarcsoft_dualcam_refocus.so:system/priv-app/Klik/lib/arm64/libarcsoft_dualcam_refocus.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libclearsight.so:system/priv-app/Klik/lib/arm64/libclearsight.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjni_clearsight.so:system/priv-app/Klik/lib/arm64/libjni_clearsight.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjni_dualcamrefocus.so:system/priv-app/Klik/lib/arm64/libjni_dualcamrefocus.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjni_jpegutils.so:system/priv-app/Klik/lib/arm64/libjni_jpegutils.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjni_yuv.so:system/priv-app/Klik/lib/arm64/libjni_yuv.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjpeg.so:system/priv-app/Klik/lib/arm64/libjpeg.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libmpbase.so:system/priv-app/Klik/lib/arm64/libmpbase.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libperformance.so:system/priv-app/Klik/lib/arm64/libperformance.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libqti-perfd-client.so:system/priv-app/Klik/lib/arm64/libqti-perfd-client.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/librtmp-jni.so:system/priv-app/Klik/lib/arm64/librtmp-jni.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libspatialmedia.so:system/priv-app/Klik/lib/arm64/libspatialmedia.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libview360.so:system/priv-app/Klik/lib/arm64/libview360.so \
     vendor/essential/mata/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/essential/mata/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/essential/mata/proprietary/vendor/bin/btaddr_extract:$(TARGET_COPY_OUT_VENDOR)/bin/btaddr_extract \
