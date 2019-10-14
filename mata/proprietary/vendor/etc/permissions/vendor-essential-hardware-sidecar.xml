@@ -5,7 +5,7 @@
  -->
 <permissions>
     <library name="vendor.essential.hardware.sidecar-V1.0"
-          file="/vendor/framework/vendor.essential.hardware.sidecar-V1.0-java.jar"/>
+        file="/product/framework/vendor.essential.hardware.sidecar-V1.0-java.jar"/>
     <permission name="essential.permission.ACCESS_ESSENTIAL_CAMERA">
         <group gid="camera" />
     </permission>

@@ -4,4 +4,5 @@ service vendor.fps_hal_mata /vendor/bin/hw/android.hardware.biometrics.fingerpri
     # /data is mounted.
     class late_start
     user system
-    group system input
+    group system input uhid
+    writepid /dev/cpuset/system-background/tasks
