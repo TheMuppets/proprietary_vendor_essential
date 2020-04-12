@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.mata:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.mata \
     vendor/essential/mata/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/essential/mata/proprietary/vendor/bin/hw/android.hardware.gnss@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@1.0-service-qti \
-    vendor/essential/mata/proprietary/vendor/bin/hw/android.hardware.vibrator@1.2-service.mata:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.2-service.mata \
     vendor/essential/mata/proprietary/vendor/bin/hw/vendor.essential.hardware.sidecar@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.essential.hardware.sidecar@1.0-service \
     vendor/essential/mata/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/essential/mata/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
@@ -169,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.mata.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.mata.rc \
     vendor/essential/mata/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/essential/mata/proprietary/vendor/etc/init/android.hardware.gnss@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service-qti.rc \
-    vendor/essential/mata/proprietary/vendor/etc/init/android.hardware.vibrator@1.2-service.mata.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.2-service.mata.rc \
     vendor/essential/mata/proprietary/vendor/etc/init/vendor.essential.hardware.sidecar@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.essential.hardware.sidecar@1.0-service.rc \
     vendor/essential/mata/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/essential/mata/proprietary/vendor/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml \
