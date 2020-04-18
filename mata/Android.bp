@@ -134,6 +134,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "WfdService",
+	owner: "essential",
+	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "essential",
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
@@ -186,6 +197,12 @@ android_app_import {
 		enabled: false,
 	},
 	soc_specific: true,
+}
+
+dex_import {
+	name: "WfdCommon",
+	owner: "essential",
+	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
