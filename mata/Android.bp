@@ -34,6 +34,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -209,6 +210,7 @@ prebuilt_etc_xml {
 	name: "ReferenceFeature",
 	owner: "essential",
 	src: "proprietary/vendor/etc/lm/ReferenceFeature.xml",
+	filename_from_src: true,
 	sub_dir: "lm",
 	soc_specific: true,
 }
