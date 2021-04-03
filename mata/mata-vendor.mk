@@ -100,6 +100,10 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
     vendor/essential/mata/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
     vendor/essential/mata/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/essential/mata/proprietary/media/audio/ui/VideoRecord.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/VideoRecord.ogg \
+    vendor/essential/mata/proprietary/media/audio/ui/VideoStop.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/VideoStop.ogg \
+    vendor/essential/mata/proprietary/media/audio/ui/camera_click.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/camera_click.ogg \
+    vendor/essential/mata/proprietary/media/audio/ui/camera_focus.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/camera_focus.ogg \
     vendor/essential/mata/proprietary/product/framework/vendor.essential.hardware.sidecar-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.essential.hardware.sidecar-V1.0-java.jar \
     vendor/essential/mata/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
     vendor/essential/mata/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
