@@ -766,7 +766,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     QtiTelephonyService \
     TimeService \
-    datastatusnotification \
     radioconfig \
     cneapiclient \
     com.quicinc.cne.api-V1.0-java \

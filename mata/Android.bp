@@ -155,17 +155,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "datastatusnotification",
-	owner: "essential",
-	apk: "proprietary/vendor/app/datastatusnotification/datastatusnotification.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "radioconfig",
 	owner: "essential",
 	apk: "proprietary/vendor/app/radioconfig/radioconfig.apk",
